@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+
+}
+
+
+.headingtext {
+    color: rgb(0, 255, 140);
+    font-size: 50px;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+
+}
+
+.heading img {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.instructions {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.instructionshead {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.instructionshead:active {
+    color: red;
+}
+
+
+.instructionstext {
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+
+
+.display {
+    display: block;
+}
+
+.twodie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 100px;
+}
+
+.img1 {
+    height: 250px;
+
+
+}
+
+.img2 {
+    height: 250px;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgbox div {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+
+}
+
+.clickme {
+
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    outline: none;
+    border: 2px solid white;
+    margin-left: 125px;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+}
+
+.clickme:active {
+    box-shadow: 0px 0px 15px black;
+}
+
+.playerwins {
+
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 450px;
+}
